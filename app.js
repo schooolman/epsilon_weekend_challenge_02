@@ -29,15 +29,21 @@ function search(query){
 		var result = data;
 		var releaseYear = result.Year;
 		var movieTitle = result.Title;
-
 		
+		if(data.Title === undefined){
+
+			alert("Try again, couldn't find your Movie.");
+
+		} else {
 		$(".title").text("The movie, " + movieTitle + " was released in: ");
 
 		$(".year").text(releaseYear);
+		
 
 
 		console.log(releaseYear);
 		console.log(result);
+		};	
 
 	});
 };

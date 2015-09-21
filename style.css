@@ -4,7 +4,7 @@
 	margin: 50px auto;
 	background-color: #ffb33a;
 	padding: 25px;
-	border-radius: 4px;
+	border-radius: 15px;
 	text-align: center;
 	border: #eaec3a 5px solid;
 	font-family: Helvetica, sans-serif;
@@ -17,6 +17,7 @@
 }
 
 body {
+	background-image: url("images/dark_embroidery.png");
 	background-color: #b9b9b9;
 }
 
